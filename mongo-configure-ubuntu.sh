@@ -11,5 +11,5 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 sudo apt-get -y update
-sudo apt-get install -y 
-sudo usermod -aG docker $USERdocker-ce
+sudo apt-get install -y docker-ce 
+sudo usermod -aG docker $USER
